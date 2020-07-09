@@ -1,0 +1,27 @@
+<div class="row">
+    <div class="col-xs-12">
+        <form>
+            <div class="row">
+                <div class="col-xs-2 form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" class="form-cotrol" #theName>
+                    
+                </div>
+                <div class="col-xs-2 form-group">
+                    <label for="amount">Amount</label>
+                    <input type="text" id="amount" class="form-cotrol" #theamount>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="button">
+                    <button class="btn btn-success" type="submit" (click)='addInList(theName.value,theamount.value)'>Add</button> 
+                   
+                   
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+   
